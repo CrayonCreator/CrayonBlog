@@ -12,6 +12,7 @@ export default defineConfig({
   themeConfig: {
 
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/crayon.png',
     lastUpdated: {
       text: '最后更新于',
       formatOptions: {
