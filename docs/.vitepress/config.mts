@@ -5,12 +5,11 @@ export default defineConfig({
   title: "Crayon\'s Blog Website",
   description: "这是 Crayon 的博客频道",
   base : '/CrayonBlog/',
-  head: [
-    ['link', { rel: 'icon', href: '/crayon.jpg', type: 'image/x-icon' }]
-  ],
   lastUpdated: true,
+  head: [
+    ['link', { rel: 'icon', href: '/character.ico' }]
+  ],
   themeConfig: {
-
     // https://vitepress.dev/reference/default-theme-config
     logo: '/crayon.png',
     lastUpdated: {
