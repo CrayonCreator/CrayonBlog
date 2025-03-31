@@ -7,7 +7,7 @@ export default defineConfig({
   base : '/CrayonBlog/',
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', href: '/character.ico' }]
+    ['link', { rel: 'icon', href: '/CrayonBlog/character.ico' }]  // 添加 base 路径前缀
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
