@@ -33,8 +33,22 @@ export default defineConfig({
             items: [
               { text: '认识了一群很有趣的朋友', link:'/Life/趣事/认识了一群很有趣的朋友' },
             ]
+          },
+          {
+            text: '生活中的一些烦心事',
+            items: [
+            ]
           }
           
+        ]
+      },
+      {
+        text: '观影感悟',
+        items:[
+          {
+            text: '看过的电影',
+            link: '/观影感悟/index'
+          }
         ]
       },
       {
@@ -71,6 +85,12 @@ export default defineConfig({
               // { text: 'Vue1', link: '/FrontEnd/Vue/Vue1' }
             ]
           }
+        ]
+      },
+      {
+        text: '算法与数据结构',
+        items: [
+          {text: '哈夫曼',link:'/算法与数据结构/哈夫曼'}
         ]
       }
 
