@@ -13,6 +13,17 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/CrayonBlog/character.ico' }]  // 添加 base 路径前缀
   ],
+  
+  // 配置图片资源路径
+  vite: {
+    resolve: {
+      alias: {
+        '@theme': path.resolve(__dirname, './theme'),
+        '@images': path.resolve(__dirname, '../public/images')
+      }
+    }
+  },
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/crayon.png',
@@ -114,13 +125,5 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2025-present Crayon'
     },
-  },
-
-  vite: {
-    resolve: {
-      alias: {
-        '@theme': path.resolve(__dirname, './theme')
-      }
-    }
   }
 })
