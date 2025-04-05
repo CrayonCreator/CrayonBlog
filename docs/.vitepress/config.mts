@@ -1,4 +1,8 @@
 import { defineConfig } from 'vitepress'
+import path from 'path'
+import { fileURLToPath } from 'url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -32,6 +36,7 @@ export default defineConfig({
             text: '生活中的一些趣事',
             items: [
               { text: '认识了一群很有趣的朋友', link:'/Life/趣事/认识了一群很有趣的朋友' },
+              { text: '清明假期来武汉的张进步', link: '/Life/趣事/2025.4.5'}
             ]
           },
           {
@@ -109,5 +114,13 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2025-present Crayon'
     },
+  },
+
+  vite: {
+    resolve: {
+      alias: {
+        '@theme': path.resolve(__dirname, './theme')
+      }
+    }
   }
 })
