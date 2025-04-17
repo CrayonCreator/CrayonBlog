@@ -29,3 +29,8 @@
 ### 误杀3
 * 有些秘密，永远成为了秘密
 * 这是报应
+### 遗愿清单
+* when he died , his eyes are closed , but his heart id open
+* close your eyes , let the river help you to home
+### 狮子王(2009)
+* Hakuna Matata!
