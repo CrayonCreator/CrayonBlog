@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "strict": true,
+    "types": ["vite/client"]
+  },
+  "include": [
+    "shims-vue.d.ts",
+    "docs/.vitepress/**/*",
+    "docs/.vitepress/**/*.vue"
+  ]
+}
