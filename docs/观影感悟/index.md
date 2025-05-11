@@ -38,3 +38,7 @@
 * Why so serious?
 * You either die a hero or live long enough to see yourself become the villain.
 * The hero Gotham deserves, but not the one it needs right now.
+### 星际穿越
+* Love is the only thing that transcends time and space.
+* murphy's law
+* if something can go wrong, it will(?)
