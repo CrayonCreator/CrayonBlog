@@ -42,3 +42,7 @@
 * Love is the only thing that transcends time and space.
 * murphy's law
 * if something can go wrong, it will(?)
+### 也没有那么热血沸腾
+* 也没有那么热血沸腾
+### 海边的曼彻斯特
+* 一场平静而合理的悲剧
