@@ -51,6 +51,7 @@ export default defineConfig({
           {
             text: '生活中的一些烦心事',
             items: [
+              { text: '这是第一次在这个板块下写博客', link: '/Life/烦心事/2025.5.19' },
             ]
           }
           
