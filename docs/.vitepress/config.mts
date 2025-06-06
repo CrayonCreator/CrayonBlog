@@ -58,6 +58,15 @@ export default defineConfig({
         ]
       },
       {
+        text: '点子集',
+        items: [
+          {
+            text: '点子集',
+            link: '/Study/points'
+          }
+        ]
+      },
+      {
         text: '观影感悟',
         items:[
           {

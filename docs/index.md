@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: BLOG
-      link: /FrontEnd/HTML/HTML1
+      link: /FrontEnd/JavaScript/JavaScript1
     - theme: alt
       text: FRONTEND
-      link: /FrontEnd/HTML/HTML1
+      link: /FrontEnd/JavaScript/JavaScript1
     - theme: brand
       text: 趣事
       link: /Life/趣事/认识了一群很有趣的朋友
@@ -28,7 +28,7 @@ features:
     link : /FrontEnd/HTML/HTML1
   - icon: 🫎
     title: 蜡笔 Crayon 🖍️
-    details: 我是crayon，前端学习中...<br>正在学习 Vue & ts
+    details: 我是crayon，前端学习中...<br>正在学习 React & ts
   - icon: ✨
     title: Who I am ❓
     details: HUSTER？CSE？<br> 冰岩作坊前端组成员？<br> 喜欢琢磨新技术，喜欢coding？<br> Yes 这都是我 
