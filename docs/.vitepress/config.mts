@@ -67,11 +67,15 @@ export default defineConfig({
         ]
       },
       {
-        text: '观影感悟',
+        text: '看看看',
         items:[
           {
             text: '看过的电影',
             link: '/观影感悟/index'
+          },
+          {
+            text: "看过的番",
+            link: '/番剧感悟/index'
           }
         ]
       },
